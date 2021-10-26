@@ -1,5 +1,5 @@
 {
-    "name": "rishi-ramawat/laravel-postgresql-inherit",
+    "name": "markadell/laravel-postgresql-inherit",
     "description": "Add inheritance in postgresql tables",
     "license": "MIT",
     "keywords": ["laravel", "postgres", "postresql", "database", "migrations", "inheritance"],
@@ -15,16 +15,20 @@
         {
             "name": "Rishi Ramawat",
             "email": "rishi.ramawat@gmail.com"
+        },
+        {
+          "name": "Mark Adel",
+          "email": "mark.adell@outlook.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~5.2",
-        "illuminate/database": "~5.2"
+        "illuminate/support": "~6.0",
+        "illuminate/database": "~6.0"
     },
     "require-dev": {
         "mockery/mockery": "~0.9",
-        "phpunit/phpunit": "^5.7"
+        "phpunit/phpunit": "^6.0"
     },
     "autoload": {
         "psr-4": {
